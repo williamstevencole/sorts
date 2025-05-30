@@ -88,7 +88,10 @@ public class sorts {
             System.out.println("Array ordenado: ");
             printArray(arrCopy);
             System.out.println("\nTiempo de ejecución: " + duration + " milisegundos");
+
+
         }
+        scanner.close();
     }
 
 
@@ -247,6 +250,8 @@ public class sorts {
             }
         }
     }
+
+    
 
 
 }
